@@ -4,15 +4,19 @@
     "inquirer": "^9.2.16",
     "qr-image": "^3.2.0"
   },
-  "name": "2.4-qr-code-project",
+  "name": "qrcodegenerator",
   "version": "1.0.0",
+  "description": "A CLI tool to generate QR code images from URLs",
   "type": "module",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "bin": {
+    "generate-qr": "./index.js"
+  },
+  "author": "Yashwanth",
+  "license": "MIT"
 }
